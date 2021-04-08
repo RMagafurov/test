@@ -33,7 +33,7 @@ if($_POST['my_number_send']){
 if($_POST['dell_session']){
     // Очистить массив $_SESSION полностью
     session_unset();
-    // Удалить временное хранилище (файл сессии) на сервере
+    // Удалить файл сессии на сервере
     session_destroy();
 }
 
