@@ -3,7 +3,7 @@ session_start(); ?>
 <form action="" method="POST">
     Для завершения и нового сеанса нажмите -
     <input name="dell_session" type="submit" value="Новый пользователь"><br><br><br><br><br>
-    ЗАГАДАЙТЕ ДВУХЗНАЧНОЕ ЧИСЛО.<br/> Когда будете готовы, нажмите на кнопку -
+    ЗАГАДАЙТЕ ДВУЗНАЧНОЕ ЧИСЛО.<br/> Когда будете готовы, нажмите на кнопку -
     <input name="zag" type="submit" value="ЗАГАДАНО"><br/><br/>
     Введите загаданое число для сравнения : <br/><br/>
     <input name="my_number_input" type="text" value="" placeholder="мое число">
